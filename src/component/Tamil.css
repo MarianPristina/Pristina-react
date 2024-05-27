@@ -1,0 +1,248 @@
+.nav-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    padding-bottom: 1000px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-container a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: Castellar;
+    text-decoration: none;
+    color: #333;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.nav-container img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.nav-container a:hover {
+    background-color: #FF5900;
+}
+
+#head {
+    font-size: 30px;
+    font-family: Castellar;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 2px;
+}
+
+#impo-img {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.me {
+    padding-left: 650px;
+}
+
+.mine {
+    border-top: 2px gray solid;
+    border-bottom: 2px gray solid;
+}
+
+.hello {
+    padding-left: 60px;
+    font-family: Castellar;
+}
+
+.hi {
+    color: #FF5900;
+    padding-top: 30px;
+    padding: 10px;
+}
+
+.image {
+    padding-left: 400px;
+    width: 150px;
+    height: 150px;
+}
+
+.play {
+    padding-left: 590px;
+    margin-bottom: 10px;
+}
+
+.big {
+    display: inline-block;
+    padding-left: 50px;
+    margin-top: -10px;
+}
+
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: black;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.playlist-header {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.playlist-cover {
+    padding-left: 200px;
+    width: 150px;
+    height: 150px;
+}
+
+.playlist-info {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-info h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.playlist-songs {
+    margin-top: 20px;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.song-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-title {
+    font-weight: bold;
+    font-family: Castellar;
+}
+
+.song-album {
+    font-style: italic;
+}
+
+.song-duration {
+    margin-left: 20px; /* Adjust this value to make the title and duration closer */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.play-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    padding-right: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 250px;
+    padding-left: 50px;
+    padding-bottom: 130px;
+}
+
+.play-container h2 {
+    font-family: Castellar;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.song-controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.song-controls svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: #FF5900;
+}
+
+.song-controls svg:hover {
+    color: #e04900;
+}
+
+.song-details p {
+    margin: 5px 0;
+    color: #FF5900;
+font-weight: bold;
+font-family: Castellar;
+padding-left: 10px;
+
+
+}
+
+.marian {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.album-cover {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 16px; 
+}
+
+
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column; /* Display icons and labels in a column */
+    align-items: center;
+  }
+  
+  .social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between icons and labels */
+  }
+  
+  .instagram-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .instagram-btn:focus {
+    outline: none;
+  }
+  
+  .social-icon span {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .pris
+  {
+    color:#FF5900;
+    font-weight: bold;
+padding-left: 10px;
+  }
