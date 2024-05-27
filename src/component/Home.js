@@ -31,7 +31,7 @@ const Home = () => {
                 <div className="play-wrapper">
 <Link to="/Tamil">
                         <img src="TAMILPLAY.jpeg" className="amali" alt="Tamil" />
-                        <p className="play-text">TAMIL</p>
+                        <p className="play-text">Tamil</p>
                     </Link>
                 </div>
                 <div className="play-wrapper">
