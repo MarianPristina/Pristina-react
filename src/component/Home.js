@@ -21,11 +21,12 @@ const Home = () => {
             </div>
             <div className="malin">
                 <nav>
-                    <a href="#" className='butter'>TRENDING</a>
+                    <a href="#trend" className='butter'>TRENDING</a>
                     <a href="#"  className='butter'>ALBUMS</a>
                     <a href="#" className='butter'>SINGERS</a>
                 </nav>
             </div>
+            <section id="trend">
             <p id="babu"><b>TRENDING ON CHARTS</b></p>
             <div className="amali-container">
                 <div className="play-wrapper">
@@ -53,6 +54,7 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+            </section>
             <p id="babu"><b>TRENDING ALBUM</b></p>
             <div className="amali-container">
                 <div className="play-wrapper">
