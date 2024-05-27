@@ -22,8 +22,8 @@ const Home = () => {
             <div className="malin">
                 <nav>
                     <a href="#trend" className='butter'>TRENDING</a>
-                    <a href="#"  className='butter'>ALBUMS</a>
-                    <a href="#" className='butter'>SINGERS</a>
+                    <a href="#album"  className='butter'>ALBUMS</a>
+                    <a href="#singer" className='butter'>SINGERS</a>
                 </nav>
             </div>
             <section id="trend">
@@ -55,6 +55,7 @@ const Home = () => {
                 </div>
             </div>
             </section>
+            <section id="album">
             <p id="babu"><b>TRENDING ALBUM</b></p>
             <div className="amali-container">
                 <div className="play-wrapper">
@@ -78,6 +79,7 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+            </section>
             <p id="babu"><b>TRENDING ARTIST</b></p>
             <div className="amali-container">
                 <div className="play-wrapper">
