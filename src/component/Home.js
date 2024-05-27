@@ -22,7 +22,7 @@ const Home = () => {
             <div className="malin">
                 <nav>
                     <a href="#" className='butter'>TRENDING</a>
-                    <a href="#"  className='butter'>AL</a>
+                    <a href="#"  className='butter'>ALBUM</a>
                     <a href="#" className='butter'>SINGERS</a>
                 </nav>
             </div>
@@ -31,7 +31,7 @@ const Home = () => {
                 <div className="play-wrapper">
 <Link to="/Tamil">
                         <img src="TAMILPLAY.jpeg" className="amali" alt="Tamil" />
-                        <p className="play-text">TAMIL</p>
+                        <p className="play-text">TA</p>
                     </Link>
                 </div>
                 <div className="play-wrapper">
