@@ -27,7 +27,7 @@ const Home = () => {
                 </nav>
             </div>
             <section id="trend">
-            <p id="babu"><b>TRENDING ON CHARTS</b></p>
+            <p id="babu"><b>TRENDING ON CHART</b></p>
             <div className="amali-container">
                 <div className="play-wrapper">
 <Link to="/Tamil">
