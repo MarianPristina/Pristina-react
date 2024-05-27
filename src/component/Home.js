@@ -22,7 +22,7 @@ const Home = () => {
             <div className="malin">
                 <nav>
                     <a href="#" className='butter'>TRENDING</a>
-                    <a href="#"  className='butter'>ALBUM</a>
+                    <a href="#"  className='butter'>AL</a>
                     <a href="#" className='butter'>SINGERS</a>
                 </nav>
             </div>

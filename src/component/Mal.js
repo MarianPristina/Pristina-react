@@ -54,7 +54,7 @@ const Mal = () => {
                 
                 <a href="#" style={{ paddingTop: "10px" }}>
                     <img src="services.jpeg" alt="Services" />
-                    <b>SERVIC</b>
+                    <b>SERVICES</b>
                 </a>
                 <Link to ="/Home" className='back'><b>GO BACK</b></Link>
                 <p className='hello'><b>SUGAR RUSH</b></p>
