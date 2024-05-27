@@ -22,7 +22,7 @@ const Home = () => {
             <div className="malin">
                 <nav>
                     <a href="#trend" className='butter'>TRENDING</a>
-                    <a href="#album"  className='butter'>ALBUMS</a>
+                    <a href="#albu"  className='butter'>ALBUMS</a>
                     <a href="#singer" className='butter'>SINGERS</a>
                 </nav>
             </div>
@@ -55,7 +55,7 @@ const Home = () => {
                 </div>
             </div>
             </section>
-            <section id="album">
+            <section id="albu">
             <p id="babu"><b>TRENDING ALBUM</b></p>
             <div className="amali-container">
                 <div className="play-wrapper">
